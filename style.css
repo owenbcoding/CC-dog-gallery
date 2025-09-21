@@ -83,3 +83,8 @@ footer {
   color: black;
   margin-top: 40px;
 }
+
+@media (min-width: 901px) {
+  .gallery--center-two .card:nth-child(1) { grid-column: 2; }
+  .gallery--center-two .card:nth-child(2) { grid-column: 3; }
+}
